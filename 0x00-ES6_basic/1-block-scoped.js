@@ -1,6 +1,6 @@
 export default function taskBlock(trueOrFalse) {
-  const task = false;
-  const task2 = true;
+  var task = false;
+  var task2 = true;
 
   if (trueOrFalse) {
     const task = true;
@@ -9,3 +9,8 @@ export default function taskBlock(trueOrFalse) {
 
   return [task, task2];
 }
+
+// // import taskBlock from './1-block-scoped.js';
+
+// console.log(taskBlock(true));
+// console.log(taskBlock(false));
