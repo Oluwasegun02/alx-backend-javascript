@@ -3,4 +3,3 @@ function displayMessage(str) {
 }
 
 module.exports = displayMessage;
-
